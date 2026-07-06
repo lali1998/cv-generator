@@ -1,0 +1,255 @@
+{
+  "candidates": [
+    {
+      "id": "2",
+      "initials": "CL",
+      "name": "Csik Lajos",
+      "status": "confirmed",
+      "statusLabel": "candidateCard.status.confirmed",
+      "domain": "Frontend / UI",
+      "level": "Senior / Frontend",
+      "jobTitle": "Frontend fejlesztő",
+      "tags": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "NgRx",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TailwindCSS",
+        "Bootstrap",
+        "Git",
+        "Photoshop",
+        "WordPress",
+        "Vue.js",
+        "Quasar",
+        "C++",
+        "C#",
+        "WPF",
+        "Python",
+        "React"
+      ],
+      "builderData": {
+        "professionalProfile": {
+          "firstName": "Lajos",
+          "lastName": "Csik",
+          "headline": "Frontend fejlesztő",
+          "countryOfResidence": "Hungary",
+          "mobilePhone": "",
+          "email": "",
+          "nationality": "Hungarian",
+          "dateOfBirth": "1998-01-01",
+          "profilePhotoUrl": "images/cv-profiles-imgs/csl.webp",
+          "summary": "<p>Frontend fejlesztőként modern webes felületeken dolgozom Angular, TypeScript, RxJS és NgRx használatával, emellett Vue.js, Quasar, C#, C++, WPF, Python és React technológiákkal is van tapasztalatom.</p>"
+        },
+        "technologies": [
+          {
+            "name": "Angular 19+",
+            "level": "architect"
+          },
+          {
+            "name": "TypeScript",
+            "level": "architect"
+          },
+          {
+            "name": "RxJS",
+            "level": "architect"
+          },
+          {
+            "name": "NgRx",
+            "level": "architect"
+          },
+          {
+            "name": "HTML",
+            "level": "architect"
+          },
+          {
+            "name": "CSS",
+            "level": "architect"
+          },
+          {
+            "name": "JavaScript",
+            "level": "architect"
+          },
+          {
+            "name": "TailwindCSS",
+            "level": "architect"
+          },
+          {
+            "name": "Bootstrap",
+            "level": "architect"
+          },
+          {
+            "name": "Git",
+            "level": "architect"
+          },
+          {
+            "name": "Photoshop",
+            "level": "architect"
+          },
+          {
+            "name": "WordPress",
+            "level": "architect"
+          },
+          {
+            "name": "Vue.js",
+            "level": "senior"
+          },
+          {
+            "name": "Quasar",
+            "level": "senior"
+          },
+          {
+            "name": "C++",
+            "level": "senior"
+          },
+          {
+            "name": "C#",
+            "level": "senior"
+          },
+          {
+            "name": "WPF",
+            "level": "senior"
+          },
+          {
+            "name": "Python",
+            "level": "senior"
+          },
+          {
+            "name": "React",
+            "level": "senior"
+          }
+        ],
+        "workExperience": [
+          {
+            "jobTitle": "Frontend fejlesztő",
+            "companyName": "Adroit Group Kft.",
+            "startDate": "2022-02-01",
+            "endDate": "2025-03-01",
+            "description": "I developed a white-label solution for an insurance provider's application that could be easily customized for a B2B clientele. It processed the data sent by the frontend. The system displayed construction cost estimates in an editable table, supported different permission levels (admin, user, visitor), and operated in multiple languages.",
+            "technologiesUsed": [
+              {
+                "name": "WordPress"
+              },
+              {
+                "name": "TypeScript"
+              },
+              {
+                "name": "RxJS"
+              },
+              {
+                "name": "NgRx"
+              },
+              {
+                "name": "HTML"
+              },
+              {
+                "name": "CSS"
+              },
+              {
+                "name": "JavaScript"
+              },
+              {
+                "name": "TailwindCSS"
+              },
+              {
+                "name": "Bootstrap"
+              },
+              {
+                "name": "Git"
+              },
+              {
+                "name": "Photoshop"
+              }
+            ],
+            "projects": [
+              {
+                "name": "White-label insurance solution",
+                "description": "Developed a white-label insurance application for B2B clients with editable cost estimates, role-based access, and multilingual support.",
+                "technologiesUsed": []
+              }
+            ]
+          },
+          {
+            "jobTitle": "Frontend fejlesztő",
+            "companyName": "InfoCompass Core Kft.",
+            "startDate": "2025-05-01",
+            "endDate": "",
+            "description": "Frontend development for the Auchan project.",
+            "technologiesUsed": [],
+            "projects": [
+              {
+                "name": "Auchan",
+                "description": "",
+                "technologiesUsed": []
+              }
+            ]
+          }
+        ],
+        "education": [
+          {
+            "degree": "Szoftverfejlesztői végzettség (diploma nélkül)",
+            "university": "Békéscsabai SZC Trefort Ágoston Szakközépiskolája és Kollégiuma",
+            "year": "2019 - 2021"
+          },
+          {
+            "degree": "Rendszerüzemeltetői képzés",
+            "university": "GYSZC Székely Mihály Szakközépiskolája és Kollégiuma",
+            "year": "2017 - 2019"
+          },
+          {
+            "degree": "Érettségi",
+            "university": "Székács József Evangélikus Óvoda, Általános Iskola és Gimnázium",
+            "year": "2013 - 2017"
+          }
+        ],
+        "certificates": [],
+        "languages": [
+          {
+            "name": "English",
+            "level": "B2"
+          }
+        ],
+        "softSkills": [
+          {
+            "name": "Teamwork & collaboration"
+          },
+          {
+            "name": "Independent problem solving"
+          },
+          {
+            "name": "Communication skills"
+          },
+          {
+            "name": "Growth mindset"
+          },
+          {
+            "name": "Time management"
+          },
+          {
+            "name": "Efficient work"
+          },
+          {
+            "name": "Flexibility"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "Hands-on projects and continuous learning"
+          },
+          {
+            "name": "Photography"
+          }
+        ]
+      },
+      "completion": {
+        "type": "percentage",
+        "value": 100,
+        "label": "candidateCard.completion.inProgress"
+      },
+      "canConfirm": true,
+      "confirmLabel": "candidateCard.confirm.confirm"
+    }
+  ]
+}

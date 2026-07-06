@@ -1,0 +1,230 @@
+{
+  "layout": {
+    "sidebar": {
+      "brand": {
+        "title": "CV Generátor",
+        "subtitle": "Vezetett építő"
+      },
+      "navigation": {
+        "dashboard": "Vezérlőpult",
+        "builder": "Űrlap készítő",
+        "preview": "Előnézet"
+      }
+    },
+    "header": {
+      "menu": "Oldalsáv szélességének váltása",
+      "language": "Nyelv",
+      "createCv": "Új önéletrajz"
+    },
+    "footer": {
+      "copyright": "Copyright ©2026 InfoCompass Core Kft. Magyarország"
+    }
+  },
+  "dashboard": {
+    "filters": {
+      "searchPlaceholder": "Jelöltek keresése...",
+      "status": {
+        "all": "Összes státusz",
+        "confirmed": "Megerősítve",
+        "inProgress": "Folyamatban",
+        "completed": "Befejezve"
+      },
+      "domain": {
+        "all": "Összes szakterület",
+        "backend": "Backend",
+        "frontend": "Frontend",
+        "fullstack": "Fullstack",
+        "devops": "DevOps",
+        "cybersecurity": "Kiberbiztonság",
+        "qa-testing": "QA / Tesztelés",
+        "ui-ux": "UI / UX",
+        "game-development": "Játékfejlesztés"
+      },
+      "developerLevel": {
+        "all": "Összes szint",
+        "junior": "Junior",
+        "mid": "Medior",
+        "senior": "Senior",
+        "lead": "Lead",
+        "architect": "Architect",
+        "team-lead": "Csapatvezető",
+        "team-manager": "Csapatmenedzser"
+      },
+      "exactMatch": "Pontos egyezés",
+      "clearSearch": "Keresés törlése"
+    },
+    "pagination": {
+      "totalCandidates": "Összes jelölt",
+      "activeNow": "Aktív most",
+      "navigation": "Jelöltlista lapozása",
+      "previousPage": "Előző oldal",
+      "nextPage": "Következő oldal",
+      "currentPage": "Aktuális oldal, {{ page }}. oldal",
+      "goToPage": "Ugrás a {{ page }}. oldalra"
+    },
+    "noResults": "Nincs találat"
+  },
+  "shared": {
+    "common": {
+      "noData": "Nincs megadva."
+    },
+    "technologyFilter": {
+      "all": "Összes technológia"
+    },
+    "customModal": {
+      "close": "Párbeszédablak bezárása",
+      "startFresh": {
+        "titleHighlight": "Új",
+        "titleAfter": " kezdés?",
+        "description": "A jelenlegi piszkozat véglegesen törlődik. Biztosan nulláról szeretnél új önéletrajzot kezdeni?",
+        "warningAllData": "Minden adat",
+        "warningWillBeDeleted": "törlődik",
+        "cancel": "Mégsem",
+        "confirm": "Megerősítés"
+      },
+      "saveDraft": {
+        "titleHighlight": "Piszkozat",
+        "titleAfter": " mentése?",
+        "description": "Elmented a jelenlegi állapotot piszkozatként? Később folytathatod onnan, ahol abbahagytad.",
+        "hintProgress": "Jelenlegi állapot",
+        "hintContinueLater": "később folytatható",
+        "cancel": "Mégsem",
+        "confirm": "Piszkozat"
+      }
+    },
+    "customTooltip": {
+      "dismiss": "Bezárás"
+    },
+    "stepper": {
+      "stepOf": "{{current}}. LÉPÉS / {{total}}",
+      "navigation": "Lépésnavigáció",
+      "previousSection": "Vissza",
+      "saveDraft": "Piszkozat mentése",
+      "draft": "Piszkozat",
+      "next": "Következő",
+      "send": "Küldés",
+      "sendForm": "Űrlap elküldése"
+    }
+  },
+  "builder": {
+    "steps": {
+      "professionalProfile": {
+        "label": "Szakmai profil",
+        "title": "{{step}}. lépés: Szakmai profil",
+        "subtitle": "Add meg a legfontosabb személyes adataidat, amelyek az önéletrajzod felső részén fognak megjelenni."
+      },
+      "experienceAndEducation": {
+        "label": "Tapasztalat és végzettség",
+        "title": "{{step}}. lépés: Tapasztalat és végzettség",
+        "subtitle": "Töltsd ki korábbi munkatapasztalataidat, valamint tanulmányaidat és végzettségeidet."
+      },
+      "additionalInformation": {
+        "label": "További információk",
+        "title": "{{step}}. lépés: További információk",
+        "subtitle": "Egészítsd ki profilodat tanúsítványaiddal, nyelvtudásoddal, soft skilljeiddel és hobbijaiddal."
+      },
+      "previewAndConfirmation": {
+        "label": "Előnézet és megerősítés",
+        "title": "{{step}}. lépés: Előnézet és megerősítés",
+        "subtitle": "Ellenőrizd az önéletrajzodat elküldés előtt."
+      }
+    },
+    "stepperAriaLabel": "Önéletrajz-építő folyamat",
+    "backToPreview": "Vissza az előnézethez",
+    "professionalProfile": {
+      "personalData": {
+        "title": "Személyes adatok",
+        "firstName": "Keresztnév",
+        "lastName": "Vezetéknév",
+        "countryOfResidence": "Ország",
+        "mobilePhone": "Mobiltelefon",
+        "email": "E-mail cím",
+        "nationality": "Állampolgárság",
+        "dateOfBirth": "Születési dátum",
+        "dateOfBirthPlaceholder": "Válassz dátumot",
+        "selectPlaceholder": "Válassz...",
+        "photoHint": "Ajánlott kiterjesztés: PNG/JPG, max. 2 MB",
+        "uploadPhoto": "Profilkép feltöltése",
+        "editPhoto": "Profilkép szerkesztése"
+      },
+      "technologies": {
+        "title": "Technológiák",
+        "nameLabel": "Technológia neve",
+        "namePlaceholder": "pl. React, Python, Figma",
+        "proficiencyLabel": "Jártassági szint",
+        "proficiencyPlaceholder": "pl. Junior",
+        "add": "Hozzáadás",
+        "alreadyInList": "Ez a technológia már szerepel a listában.",
+        "remove": "{{name}} eltávolítása",
+        "chip": "{{name}} · {{level}}"
+      }
+    }
+  },
+  "candidateCard": {
+    "status": {
+      "inProgress": "Folyamatban",
+      "confirmed": "Megerősítve",
+      "completed": "Befejezve"
+    },
+    "confirm": {
+      "confirm": "Megerősítés",
+      "confirmed": "Megerősítve"
+    },
+    "completion": {
+      "inProgress": "Folyamatban",
+      "ready": "Kész",
+      "reviewNeeded": "Ellenőrzés szükséges"
+    },
+    "actions": {
+      "preview": "Előnézet",
+      "edit": "Szerkesztés",
+      "download": "Letöltés",
+      "downloadPdf": "PDF letöltés"
+    },
+    "tags": {
+      "more": "+{{ count }} további",
+      "moreAria": "{{ count }} további technológia, az összes megtekintéséhez vidd fölé az egeret",
+      "tooltipTitle": "További technológiák"
+    }
+  },
+  "builderAdditionalInformation": {
+    "summary": {
+      "title": "Szakmai összefoglaló",
+      "subtitle": "Rövid áttekintés a szakmai hátteredről és legfontosabb eredményeidről.",
+      "label": "További megjegyzések és összefoglaló",
+      "placeholder": "Pl. dinamikus marketing szakember 5+ év tapasztalattal digitális stratégiában és márkamenedzsmentben...",
+      "characters": "karakter"
+    },
+    "softSkills": {
+      "title": "Soft skillek",
+      "label": "Soft skill hozzáadása",
+      "placeholder": "Írj be egy skillt és nyomj Entert (pl. vezetés, alkalmazkodóképesség)",
+      "add": "Soft skill hozzáadása",
+      "remove": "{{name}} eltávolítása"
+    },
+    "hobbies": {
+      "title": "Hobbi és érdeklődési kör",
+      "label": "Hobbi hozzáadása",
+      "placeholder": "Érdeklődési kör hozzáadása (pl. fotózás, túrázás)",
+      "add": "Hobbi hozzáadása",
+      "remove": "{{name}} eltávolítása"
+    },
+    "languages": {
+      "title": "Languages",
+      "nameLabel": "Nyelv neve",
+      "namePlaceholder": "pl. Angol, Német",
+      "levelLabel": "Nyelvi szint",
+      "levelPlaceholder": "pl. Alapszint, Folyékony",
+      "add": "Hozzáadás",
+      "remove": "{{name}} eltávolítása"
+    },
+    "languageLevels": {
+      "junior": "A1 · Kezdő",
+      "mid": "A2 · Alapszint",
+      "senior": "B1 · Középhaladó",
+      "lead": "B2 · Haladó",
+      "architect": "C1 · Felsőfok",
+      "team-lead": "C2 · Anyanyelvi közeli szint"
+    }
+  }
+}

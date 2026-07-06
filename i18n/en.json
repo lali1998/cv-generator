@@ -1,0 +1,231 @@
+{
+  "layout": {
+    "sidebar": {
+      "brand": {
+        "title": "CV Generator",
+        "subtitle": "Guided Builder"
+      },
+      "navigation": {
+        "dashboard": "Dashboard",
+        "builder": "Builder",
+        "preview": "Preview"
+      }
+    },
+    "header": {
+      "menu": "Toggle sidebar width",
+      "language": "Language",
+      "createCv": "Create New CV"
+    },
+    "footer": {
+      "copyright": "Copyright ©2026 InfoCompass Core Kft. Hungary"
+    }
+  },
+  "dashboard": {
+    "filters": {
+      "searchPlaceholder": "Search candidates...",
+      "status": {
+        "all": "All Statuses",
+        "confirmed": "Confirmed",
+        "inProgress": "In Progress",
+        "completed": "Completed"
+      },
+      "domain": {
+        "all": "All Domains",
+        "backend": "Backend",
+        "frontend": "Frontend",
+        "fullstack": "Fullstack",
+        "devops": "DevOps",
+        "cybersecurity": "Cybersecurity",
+        "qa-testing": "QA / Testing",
+        "ui-ux": "UI / UX",
+        "game-development": "Game Development"
+      },
+      "developerLevel": {
+        "all": "All Levels",
+        "junior": "Junior",
+        "mid": "Mid",
+        "senior": "Senior",
+        "lead": "Lead",
+        "architect": "Architect",
+        "team-lead": "Team Lead",
+        "team-manager": "Team Manager"
+      },
+      "exactMatch": "Exact Match",
+      "clearSearch": "Clear search"
+    },
+    "pagination": {
+      "totalCandidates": "Total Candidates",
+      "activeNow": "Active Now",
+      "navigation": "Candidate list pagination",
+      "previousPage": "Previous page",
+      "nextPage": "Next page",
+      "currentPage": "Current page, page {{ page }}",
+      "goToPage": "Go to page {{ page }}"
+    },
+    "noResults": "No results found"
+  },
+  "shared": {
+    "common": {
+      "noData": "No data provided."
+    },
+    "technologyFilter": {
+      "all": "All Technologies"
+    },
+    "customModal": {
+      "close": "Close dialog",
+      "startFresh": {
+        "titleHighlight": "Start",
+        "titleAfter": " Fresh?",
+        "description": "Your current draft will be permanently discarded. Are you sure you want to start a new CV from scratch?",
+        "warningAllData": "All data",
+        "warningWillBeDeleted": "will be deleted",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "saveDraft": {
+        "titleHighlight": "Save",
+        "titleAfter": " Draft?",
+        "description": "Save your current progress as a draft. You can continue editing later from where you left off.",
+        "hintProgress": "Current progress",
+        "hintContinueLater": "continue later",
+        "cancel": "Cancel",
+        "confirm": "Draft"
+      }
+    },
+    "customTooltip": {
+      "dismiss": "Dismiss"
+    },
+    "stepper": {
+      "stepOf": "STEP {{current}} OF {{total}}",
+      "navigation": "Step navigation",
+      "previousSection": "Back",
+      "saveDraft": "Save Draft",
+      "draft": "Draft",
+      "next": "Next",
+      "send": "Send",
+      "sendForm": "Send Form"
+    }
+  },
+  "builder": {
+    "steps": {
+      "professionalProfile": {
+        "label": "Professional Profile",
+        "title": "Step {{step}}: Professional Profile",
+        "subtitle": "Tell us who you are. This information will appear at the top of your resume."
+      },
+      "experienceAndEducation": {
+        "label": "Experience & Education",
+        "title": "Step {{step}}: Experience & Education",
+        "subtitle": "Add your work history and educational background."
+      },
+      "additionalInformation": {
+        "label": "Additional Information",
+        "title": "Step {{step}}: Additional Information",
+        "subtitle": "Certificates, languages, soft skills, and hobbies to round out your profile."
+      },
+      "previewAndConfirmation": {
+        "label": "Preview & Confirmation",
+        "title": "Step {{step}}: Preview & Confirmation",
+        "subtitle": "Review your CV before sending it."
+      }
+    },
+    "stepperAriaLabel": "CV builder progress",
+    "backToPreview": "Back to preview",
+    "professionalProfile": {
+      "personalData": {
+        "title": "Personal Data",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "countryOfResidence": "Country of Residence",
+        "mobilePhone": "Mobile Phone",
+        "email": "Email Address",
+        "nationality": "Nationality",
+        "dateOfBirth": "Date of Birth",
+        "dateOfBirthPlaceholder": "Select date",
+        "selectPlaceholder": "Select...",
+        "photoHint": "Recommended: Square PNG/JPG, max 2MB",
+        "uploadPhoto": "Upload profile photo",
+        "editPhoto": "Edit profile photo"
+      },
+      "technologies": {
+        "title": "Technologies",
+        "nameLabel": "Technology Name",
+        "namePlaceholder": "e.g. React, Python, Figma",
+        "proficiencyLabel": "Proficiency Level",
+        "proficiencyPlaceholder": "e.g. Junior",
+        "add": "Add",
+        "alreadyInList": "This technology is already in the list.",
+        "remove": "Remove {{name}}",
+        "chip": "{{name}} · {{level}}"
+      }
+    }
+  },
+  "candidateCard": {
+    "status": {
+      "inProgress": "In Progress",
+      "confirmed": "Confirmed",
+      "completed": "Completed"
+    },
+    "confirm": {
+      "confirm": "Confirm",
+      "confirmed": "Confirmed"
+    },
+    "completion": {
+      "inProgress": "Completion",
+      "ready": "Ready",
+      "reviewNeeded": "Review Needed"
+    },
+    "actions": {
+      "preview": "Preview",
+      "edit": "Edit",
+      "download": "Download",
+      "downloadPdf": "Download PDF"
+    },
+    "tags": {
+      "more": "+{{ count }} more",
+      "moreAria": "{{ count }} additional technologies, hover to view all",
+      "tooltipTitle": "Additional technologies"
+    }
+  },
+  "builderAdditionalInformation": {
+    "summary": {
+      "title": "Professional Summary",
+      "subtitle": "A brief overview of your professional background and key achievements. This often serves as the first impression for recruiters.",
+      "label": "Additional Notes & Summary",
+      "placeholder": "E.g. Dynamic Marketing Professional with 5+ years of experience in digital strategy and brand management...",
+      "characters": "characters"
+    },
+    "softSkills": {
+      "title": "Soft Skills",
+      "label": "Add soft skill",
+      "placeholder": "Type a skill and press Enter (e.g. Leadership, Adaptability)",
+      "add": "Add soft skill",
+      "remove": "Remove {{name}}"
+    },
+    "hobbies": {
+      "title": "Hobbies & Interests",
+      "label": "Add hobby",
+      "placeholder": "Add interests (e.g. Photography, Hiking)",
+      "add": "Add hobby",
+      "remove": "Remove {{name}}"
+    },
+    "languages": {
+      "title": "Languages",
+      "nameLabel": "Language Name",
+      "namePlaceholder": "e.g. English, German",
+      "levelLabel": "Language Level",
+      "levelPlaceholder": "e.g. Basic, Fluent",
+      "add": "Add",
+      "remove": "Remove {{name}}"
+    },
+    "languageLevels": {
+      "junior": "A1 · Beginner",
+      "mid": "A2 · Pre-intermediate",
+      "senior": "B1 · Intermediate",
+      "lead": "B2 · Upper-intermediate",
+      "architect": "C1 · Advanced",
+      "team-lead": "C2 · Proficient",
+      "team-manager": "C2 · Proficient / Mastery"
+    }
+  }
+}
